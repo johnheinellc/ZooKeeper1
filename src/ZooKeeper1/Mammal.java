@@ -6,6 +6,9 @@ public class Mammal{
 	public Mammal(){
 		energy = 100;
 	}
+	public bat(){
+		energy = 300;
+	}
 	
 	
 	public double displayEnergy() {
@@ -27,4 +30,20 @@ public class Mammal{
 		energy -= 10;
 		System.out.println("Retreat!");
 	}
+		
+	public void fly() {
+		energy -= 50;
+		System.out.println("Woosh Woosh Woosh!");
+	}
+		
+	public void eatHumans() {
+		energy += 25;
+	}
+	
+	public void attackTowns() {
+		energy -= 100;
+		System.out.println("Help me, 7lb 5oz Baby Jesus!");
+	}
+		
+		
 }
